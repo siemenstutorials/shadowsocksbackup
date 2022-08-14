@@ -24,7 +24,7 @@ read -p "请设置Shodowsockss端口：" port
 [ -z "${port}" ] && port=1168
 echo "port = ${port}"
 echo "-----------------------------------------------------"
-read -p "请设置Shodowsockss协议：" method
+read -p "请设置Shodowsockss：aes-256-cfb协议：" method
 [ -z "${method}" ] && method=aes-256-cfb
 echo "method = ${method}"
 echo "-----------------------------------------------------"
@@ -37,14 +37,8 @@ nohup ssserver -m ${method} -p ${port} -k ${passwd} >> /dev/null 2>&1 &
 
 #Shadowsocks config
 
-Shadowsocks_info() {
-cat <<EOF
-================================================
-Connect details:
-Server IP: 当前服务器IP | 密码: ${passwd} | 加密协议: ${method} | 端口: ${port}
-================================================
-EOF
-}
-
-echo "Shadowsocks安装完成"
+echo "Shadowsocks安装完成,连接信息如下"
+echo "加密协议: " ${method}
+echo "连接端口: " ${port}
+echo "连接密码: " ${passwd}
 
