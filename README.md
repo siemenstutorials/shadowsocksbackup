@@ -7,14 +7,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/siemenstutorials/shadowsocksba
 
 [低价高性能年付VPS](https://my.racknerd.com/aff.php?aff=1313)
 
-[US亚马逊测评专线-600/月](mxkcloud.com)
-
-[API动态测评专线定制](mxkcloud.com)
-
 [Luminati开通教程](https://bit.ly/3fRXdH7)
 
 [免费指纹浏览器](https://bit.ly/3hSImMK)
 
-[Telegram交流群](https://t.me/siemenstutorials)
+[Telegram交流群](https://t.me/smartutorialschat)
 
-[V2ray/SK5/L2TP多IP付费代搭](https://t.me/SiemensTutorial)
+[V2ray/SK5/L2TP多IP付费代搭](https://t.me/Smartutorials)
